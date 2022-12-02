@@ -26,3 +26,37 @@ footer{
      margin: 50px;
      padding: 20px 0;
 }
+
+#reg:hover{
+     cursor: default;
+}
+
+#reg{
+     margin-left: 500px;    
+}
+
+.slash{
+     border-top: 2px solid #91A395;
+     width:50px;
+     transform: rotate(-70deg); 
+}
+
+.flex{
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     
+}
+
+.fa-solid{
+     color:#0A3315;
+}
+
+.content{
+     text-align: center;
+     margin-top: 100px;
+}
+
+.rdr{
+     display: inline-block;
+}
