@@ -30,8 +30,9 @@ $('#submit').click(() => {
           // let login = 1;
 		// console.log(login);
 		
-	} else {
+	} else if(user.Username == '' && user.Password == '') {
 		alert("Please fulfill your information")
-	}
+	} else {
+		alert("!")}
 
 });
