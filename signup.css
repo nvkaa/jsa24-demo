@@ -3,7 +3,7 @@
      padding: 0px;     
 }
 
-.form{
+.form, .form2{
      border: 1px #198754 solid;
      margin: 100px;
      text-align: center;     
@@ -42,4 +42,13 @@ h4, label, input, ::placeholder{
 
 #submit:hover{
      color: #FBF2CF;
+}
+
+#submitLogin{
+     color: #969165;
+     margin-bottom: 10px;
+}
+
+#submitLogin:hover{
+     color: #FBF2CF !important;
 }
