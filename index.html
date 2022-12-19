@@ -38,24 +38,24 @@
                     <input class="form-control mr-sm-2" type="text" placeholder="Search">
                     <button class="btn btn-outline-success mx-2 my-sm-0"  type="submit">Search</button>
                 </form>
-                <div id="regBtn" class="btn regBtn btn-outline-success mx-2 my-sm-0" >
+                <form id="regBtn" class="btn regBtn btn-outline-success mx-2 my-sm-0" action="signup.html">
                         <a id="login" class="hvr" href="./login.html">Log in</a> 
                         / 
                         <a id="signup" class="hvr" href="./signup.html">Sign up</a>
-                </div>
+                </form>
              </div>
          </div>
      </nav>
 
      <div class="content">
-        <h1>Bedtime stories for Christmas:</h1>
+        <h1>Bedtime stories for Christmas:</h1> <br><br>
         <a href="#" class="rdr"><i id="gift" class="fa-solid fa-gift fa-6x"></i><br><p class="p">Christmas D-6</p></a>
         <a href="#" class="rdr"><i id="snowman" class="fa-solid fa-snowman fa-6x"></i><br><p class="p">Christmas D-5</p></a>
         <a href="#" class="rdr"><i id="sleigh" class="fa-solid fa-sleigh fa-6x"></i><br><p class="p">Christmas D-4</p></a>
        <a href="#" class="rdr"><i id="socks" class="fa-solid fa-socks fa-6x"></i><br><p class="p">Christmas D-3</p></a>
        <a href="#" class="rdr"><i id="bell" class="fa-solid fa-bell fa-6x"></i><br><p class="p">Christmas D-2</p></a>
        <a href="#" class="rdr"><i id="candy-cane" class="fa-solid fa-candy-cane fa-6x"></i><br><p class="p">Christmas D-1</p></a>
-       <a href="#" class="rdr"><i id="christmas-tree" class="fa-solid fa-tree fa-6x"></i><br><p class="p">Christmas Day</p></a>
+       <a href="#" class="rdr "><i id="christmas-tree" class="fa-solid fa-tree fa-6x"></i><br><p class="p">Christmas Day</p></a>
         
      </div>
       
@@ -71,6 +71,27 @@
                $('.dropdown-menu').fadeToggle('slow');
           });
 
+          $('#login').click(()=>{$('.form').css({'display': 'none '})})
+          
+        //     const userArr = JSON.parse(localStorage.getItem('userArr'));
+
+        //   $('#submitLogin').click(() => {
+        //     let usn = $('#usn').val();
+        //     let pw = $('#pw').val();
+        //     console.log(usn + pw);
+        //     for (let a = 0; a <= userArr.length - 1; a++){
+        //         if (userArr[a].Username == usn && userArr[a].Password == pw){
+        //             // window.location='./index.html'
+        //             // $("#regBtn").css('display','none')
+                
+        //             //alert('logged in')
+        //         } else {
+        //             alert("Username or password incorrect, please try again.")
+        //             window.location='./login.html'
+        //         }	
+        //     }
+
+        // });
     </script>
 </body>
 </html>
